@@ -30,6 +30,10 @@ main {
     padding: 20px;
 }
 
+.music-player {
+    margin-top: 20px;
+}
+
 footer {
     background-color: #333;
     color: #fff;

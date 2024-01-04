@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Example: Change the color of the heading in the "Home" section
     changeHeadingColor();
+    var audio = document.getElementById('myAudio');
 });
 
 function changeHeadingColor() {
