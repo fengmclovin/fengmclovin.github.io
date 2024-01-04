@@ -1,1 +1,1 @@
-![Visitor Count] (http://profile-counter.glitch.me/fengmclovin/count.svg)
+![Visitor Count](http://profile-counter.glitch.me/fengmclovin/count.svg)
