@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+window.addEventListener("resize", resizeCanvas, false);
+
+function resizeCanvas() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+}
+
 function changeHeadingColor() {
     // Get the heading element in the "Home" section
     var homeHeading = document.querySelector('#home h1');
