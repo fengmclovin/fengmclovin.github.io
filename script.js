@@ -14,11 +14,21 @@ function resizeCanvas() {
 }
 
 function changeHeadingColor() {
-    // Get the heading element in the "Home" section
+    // Get the heading element in the navigation section
     var homeHeading = document.querySelector('#home h1');
+    var aboutHeading = document.querySelector('#about h1');
+    var contactHeading = document.querySelector('#contact h1');
 
     // Change the color of the heading
-    homeHeading.style.color = getRandomColor();
+    if (homeHeading) {
+        homeHeading.style.color = getRandomColor();
+    }
+    if (aboutHeading) {
+        aboutHeading.style.color = getRandomColor();
+    }
+    if (contactHeading) {
+        contactHeading.style.color = getRandomColor();
+    }
 }
 
 function getRandomColor() {
