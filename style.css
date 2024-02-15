@@ -1,3 +1,9 @@
+@keyframes animation {
+    to {
+      transform: translateY(-100vh);
+    }
+}
+
 body,canvas {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -52,18 +58,12 @@ canvas {
     position: fixed;
     background-color: black;
   }
-  
-@keyframes animation {
-    to {
-      transform: translateY(-100vh);
-    }
-}
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    padding: 0.1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
