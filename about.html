@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your GitHub Page</title>
+    <title>My GitHub Page</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
 
     <script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
 </head>
@@ -24,12 +29,85 @@
         </nav>
     </header>
 
-    <main>
+    <main id="mainabout">
         <section id="about">
             <h1>About Myself</h1>
-            <p>I am a recent graduate of the University of Canberra, where I earned my Master of Information Technology
-                degree with a specialization in AI & Machine Learning.
+            <p class="fade-in-text">I love the process of transforming complex problems into elegant, user-friendly
+                solutions. <br>My commitment to delivering high-quality code and
+                staying updated with the latest technologies defines my approach to building innovative software.
+
             </p>
+
+            <h2>Technical Skills</h2>
+            <h3>Languages</h3>
+            <button onclick="openLink('https://www.python.org/')">
+                <i class="icon fab fa-python"></i> Python
+            </button>
+
+            <button onclick="openLink('https://www.java.com/')">
+                <i class="icon fab fa-java"></i> Java
+            </button>
+
+            <button onclick="openLink('https://developer.mozilla.org/en-US/docs/Web/JavaScript')">
+                <i class="icon fab fa-js"></i> JavaScript
+            </button>
+
+            <button onclick="openLink('https://html.spec.whatwg.org/')">
+                <i class="icon fab fa-html5"></i> HTML
+            </button>
+
+            <button onclick="openLink('https://docs.microsoft.com/en-us/dotnet/csharp/')">
+                <i class="fa-brands fa-windows"></i> C#</button>
+            <button onclick="openLink('https://www.mathworks.com/products/matlab.html')">
+                <i class="fas fa-calculator icon"></i> Matlab</button>
+            <button onclick="openLink('https://www.typescriptlang.org/')">
+                <i class="fab fa-js-square icon"></i>TypeScript</button>
+
+            <h3>Technologies</h3>
+            <button onclick="openLink('https://reactjs.org/')">
+                <i class="icon fab fa-react"></i> React.js
+            </button>
+            <button onclick="openLink('https://angular.io/')"><i class="fab fa-angular icon"></i> Angular</button>
+            <button onclick="openLink('https://www.djangoproject.com/')"><i class="fab fa-python icon"></i>
+                Django</button>
+            <button onclick="openLink('https://spring.io/projects/spring-boot')"><i class="fab fa-java icon"></i> Spring
+                Boot</button>
+            <button onclick="openLink('https://www.tensorflow.org/')"><i class="fa-solid fa-laptop-code"></i>
+                TensorFlow</button>
+            <button onclick="openLink('https://www.sqlite.org/')"><i class="fas fa-database icon"></i> SQLite</button>
+            <button onclick="openLink('https://getbootstrap.com/')"><i class="fab fa-bootstrap icon"></i>
+                Bootstrap</button>
+            <button onclick="openLink('https://nodejs.org/')"><i class="fab fa-node-js icon"></i> Node.js</button>
+            <button onclick="openLink('https://aws.amazon.com/')"><i class="fab fa-aws icon"></i> AWS</button>
+
+            <h3>Concepts</h3>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Compiler')"><i class="fas fa-code icon"></i>
+                Compiler</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Operating_system')"><i
+                    class="fas fa-desktop icon"></i> Operating System</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Virtual_memory')"><i
+                    class="fas fa-memory icon"></i> Virtual Memory</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Cache_(computing)')"><i
+                    class="fas fa-microchip icon"></i> Cache Memory</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Encryption')"><i class="fas fa-lock icon"></i>
+                Encryption</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Decryption')"><i class="fas fa-unlock icon"></i>
+                Decryption</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Artificial_intelligence')"><i
+                    class="fas fa-robot icon"></i> Artificial Intelligence</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Machine_learning')"><i
+                    class="fas fa-cogs icon"></i> Machine Learning</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Neural_network')"><i class="fas fa-brain icon"></i>
+                Neural Networks</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Application_programming_interface')"><i
+                    class="fas fa-code icon"></i> API</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Database_normalization')"><i
+                    class="fas fa-database icon"></i> Database Normalization</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Agile_software_development')"><i
+                    class="fas fa-tasks icon"></i> Agile Methodology</button>
+            <button onclick="openLink('https://en.wikipedia.org/wiki/Cloud_computing')"><i
+                    class="fas fa-cloud icon"></i> Cloud Computing</button>
+            <!-- Add more buttons with Font Awesome icons -->
         </section>
 
     </main>
