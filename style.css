@@ -4,6 +4,16 @@
     }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 body,canvas {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,11 +49,112 @@ nav a {
     color: #fff;
 }
 
-main {
+
+.fade-in-text-index {
+    font-size: 20px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+    text-align:left;
+}
+
+.fade-in-text {
+    font-size: 18px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+    text-align:center;
+}
+
+h2,h3 {
+    margin: 15px;
+}
+
+
+button {
+    font-size: 11px;
+    padding: 1px 3px;
+    margin: 2px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.social-buttons {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.social-button i {
+    margin-right: 10px;
+}
+
+.social-button:hover {
+    background-color: #2980b9;
+}
+
+#mainindex {
     background-color: #fff;
     padding: 60px;
-    height: 420px;
+    height: 480px;
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#mainabout {
+    background-color: #fff;
+    padding: 60px;
+    height: 480px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#maincontact {
+    background-color: #fff;
+    padding: 60px;
+    height: 480px;
+    width: 210px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -68,3 +179,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
