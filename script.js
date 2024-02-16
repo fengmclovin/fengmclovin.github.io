@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // This function runs when the DOM is fully loaded
-
-    // Example: Change the color of the heading in the "Home" section
     changeHeadingColor();
-
 });
 
 window.addEventListener("resize", resizeCanvas, false);
@@ -39,4 +36,8 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+}
+
+function openLink(url) {
+    window.open(url, '_blank');
 }
