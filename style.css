@@ -145,6 +145,7 @@ button:hover {
     position: relative;
     z-index: 2;
     animation: fadeIn 2s ease-in-out forwards;
+    overflow: auto;
 }
 
 #mainabout {
@@ -158,6 +159,7 @@ button:hover {
     position: relative;
     z-index: 2;
     animation: fadeIn 2s ease-in-out forwards;
+    overflow: auto;
 }
 
 #maincontact {
@@ -171,6 +173,7 @@ button:hover {
     position: relative;
     z-index: 2;
     animation: fadeIn 2s ease-in-out forwards;
+    overflow: auto;
 }
 
 canvas {
