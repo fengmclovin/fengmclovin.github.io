@@ -54,14 +54,14 @@ nav a {
     font-family: Tillana;
     font-size: 20px;
     opacity: 0;
-    animation: fadeIn 3s ease-in-out forwards;
+    animation: fadeIn 4s ease-in-out forwards;
     text-align:left;
 }
 
 .fade-in-text {
     font-size: 18px;
     opacity: 0;
-    animation: fadeIn 3s ease-in-out forwards;
+    animation: fadeIn 4s ease-in-out forwards;
     text-align:center;
 }
 
@@ -85,6 +85,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    animation: fadeIn 3s ease-in-out forwards;
 }
 
 .button-container {
@@ -109,6 +110,7 @@ button:hover {
     flex-direction: column; 
     justify-content: center;
     gap: 20px;
+    animation: fadeIn 3s ease-in-out forwards;
 }
 
 .social-button {
@@ -142,6 +144,7 @@ button:hover {
     text-align: center;
     position: relative;
     z-index: 2;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 #mainabout {
@@ -154,6 +157,7 @@ button:hover {
     text-align: center;
     position: relative;
     z-index: 2;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 #maincontact {
@@ -166,6 +170,7 @@ button:hover {
     text-align: center;
     position: relative;
     z-index: 2;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 canvas {
